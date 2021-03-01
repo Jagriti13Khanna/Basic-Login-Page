@@ -1,0 +1,163 @@
+body {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 100%;
+    background: #f3f3f3;
+}
+
+header,
+section {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+hr {
+  width: 850px;
+}
+
+/* ************** section *************** */
+h1 {
+    font-size: 62px;
+    margin: 24px 0;
+    font-weight: 550;
+    color: #555;
+}
+
+.text {
+  width: 840px;
+  margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #555;
+}
+
+p {
+   /*width: 700px;*/
+   font-size: 20px;
+   color: #555;
+   text-align: center;
+   margin: 25px;
+   justify-content: center;
+}
+
+.login {
+  background: #e0e0e0;
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  border-radius: 3px;
+  border: 3px solid grey;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+
+.login-top legend {
+  width: 498.5px;
+  height: 50px;
+  padding-top: 10px;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background:  #e0e0e0;
+  border-bottom: 2px solid #555;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px white;
+  -webkit-box-shadow:3px 3px 3px #909090;
+ -moz-box-shadow:3px 3px 3px #909090;
+ box-shadow:3px 3px 3px #909090;
+}
+
+
+.login form .uname,
+.login form .pwd {
+  height: 45px;
+  width: 80%;
+  margin: 25px 40px;
+  color: #404040;
+  font-weight: 520;
+  font-size: 24px;
+}
+
+form .uname label,
+form .pwd label {
+  font-size: 20px;
+  float: left;
+  color: #555;
+}
+
+form .uname input,
+form .pwd input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+  background: #E8E8E8;
+  box-shadow: 5px 10px 18px #888888;
+  color: #555;
+}
+
+form #padding-top {
+  padding-top: 25px;
+}
+
+form .forgot-pwd,
+form .logged-in  {
+  margin: 25px 40px 15px 40px;
+  float: left;
+  color: #555;
+}
+
+form .forgot-pwd a{
+  color: #555;
+  text-decoration: none;
+}
+
+form .forgot-pwd a:hover{
+  text-decoration: underline black;
+  color: #555;
+}
+
+form button {
+  color: #555;
+  margin: 10px 0 30px 0;
+  height: 40px;
+  width: 40%;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid #555;
+}
+
+
+/* ************** footer *************** */
+
+footer {
+  width: 790px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+footer li {
+    display: inline;
+}
+
+footer p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+footer ul{
+  padding-top: 22px;
+}
